@@ -1,0 +1,23 @@
+Tổng quan Git : 
+ - Git Local : cục bộ , chỉ có trên máy của người dùng
+ - Git Remote : từ xa , ám chỉ kho lưu trũ từ xa (GitHub)
+ 
+ 
+ B1 :  tạo và lưu trữ dự án ở local 
+ - git init : tạo kho lưu trữ ở local 
+ - git add . : thêm tất cả các file có sự thay đổi 
+ - git add [tên file]
+ - git status : kiểm tra trạng thái thay đổi
+ 
+ B2 : tạo và đẩy code lên git remote
+ - tạo kho trữ từ xa
+ - đẩy lên git hub với 3 dòng lệnh 
+ - git remote add origin https://github.com/hunghx/MD2-Tai-Nguyen-Hoc-Tap.git
+ - git branch -M main
+ - git push -u origin main // git push 
+ 
+ Lưu ý : Conflitch - xung đột 
+ git pull =>(sửa conflitch nếu có) => git push
+ 
+ Lỗi liên quan tới remote  :
+ git remote set-url origin https://github.com/hunghx/MD2-Tai-Nguyen-Hoc-Tap.git
